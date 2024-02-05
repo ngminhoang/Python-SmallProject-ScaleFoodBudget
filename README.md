@@ -1,30 +1,6 @@
 # Tối ưu giá tiền thực phẩm
-## Technical Stack:
-### DB: PostgreSQL
-### BE: .NET 7.0
-* Basic command:
-  ```
-  dotnet ef migrations add <MigrationName>
-  dotnet ef database update
-  dotnet new webapi -n <name> //create dotnet webapi app
-  dotnet add package <packagename>
-  dotnet new gitignore //create gitignore file
-  dotnet run
-  dotnet watch run
-  ```
-### Architecture layers
-#### Controller
-* Packages used:
-  - AutoMapper.Extensions.Microsoft.DependencyInjection
-  - Microsoft.EntityFrameworkCoreDesign
-  - Microsoft.AspNetCore.Authentication.JwtBearer
-  - Microsoft.AspNetCore.Identity.EntityFrameworkCore
-  - Serilog.AspNetCore
-#### Service
-* Packages used:
-  - AutoMapper.Extensions.Microsoft.DependencyInjection
-#### Repository
-* Packages used:
-  - Microsoft.EntityFrameworkCore.PostgreSQL
-  - Microsoft.EntityFrameworkCoreTool
-  - Microsoft.EntityFrameworkCore
+## Introduce:
+ - Một chương trình nhỏ xây dựng nhằm tối ưu chi phí mua thực phẩm dựa theo chỉ số dinh dưỡng.
+## Description:
+ - Chương trình sử dụng Python và thư viện Tkinter để xây dựng giao diện, thư viện Pyomo để xây dựng chức năng tối ưu. 
+## 
